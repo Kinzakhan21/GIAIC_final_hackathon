@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from './comonents/navbar'
+import Navbar from './components/navbar'
 import Image from "next/image"
 import Link from 'next/link'
-import Card from './comonents/card'
-import BlogCard from './comonents/blogCard'
+import Card from './components/card'
+import BlogCard from './components/blogCard'
 const Page = () => {
   return (
     <div className='mx-auto'>

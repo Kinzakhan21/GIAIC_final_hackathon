@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import { ChevronRight } from 'lucide-react'
-import Navbar from '../comonents/navbar'
-import Tag from '../comonents/infoTag'
+import Navbar from '../components/navbar'
+import Tag from '../components/infoTag'
 const page = () => {
   return (
    

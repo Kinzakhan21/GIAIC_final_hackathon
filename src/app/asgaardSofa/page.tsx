@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../comonents/navbar'
+import Navbar from '../components/navbar'
 import { ChevronRight, Facebook, Linkedin, Twitter } from 'lucide-react'
 import Image from 'next/image'
-import Card from '../comonents/card'
+import Card from '../components/card'
 import Link from 'next/link'
 const Page = () => {
   return (
@@ -12,10 +12,10 @@ const Page = () => {
         {/* path section  */}
 
         <div>
-        <div className=' py-10 lg:px-20 px-4 flex  text-xl  items-center lg:gap-x-6 gap-x-4 '>
+        <div className=' py-10 lg:px-20 px-4 flex  lg:text-xl text-lg  items-center lg:gap-x-6 gap-x-4 '>
         <p className=' text-gray-400'>Home </p><ChevronRight />  <p className='text-gray-400'>Shop </p> <ChevronRight />
      <div className="border-r-2 h-8 border-gray-500" />
-   <p>Asgaard sofa</p>
+   <p >Asgaard sofa</p>
  
 
       </div>
@@ -24,7 +24,7 @@ const Page = () => {
         {/* product detail section  */}
 
         <div className='flex flex-col lg:flex-row lg:gap-x-20 lg:px-20 gap-y-20 lg:gap-y-0'>
-<div className='flex gap-x-10 '>
+<div className='flex gap-x-2 lg:gap-x-10 px-1 '>
     <div className='flex flex-col gap-y-5'>
     <Image src={"/viewDetails/Outdoor sofa set 2.png"} width={70} height={70} alt='sofa' className='bg-paleSkin rounded-lg py-3'/>
     <Image src={"/viewDetails/Outdoor sofa set_2 1.png"} width={70} height={70} alt='sofa' className='bg-paleSkin rounded-lg py-3'/>
@@ -37,7 +37,7 @@ const Page = () => {
     
 </div>
 
-<div className='flex flex-col max-w-[430px] h-auto gap-y-3'>
+<div className='flex flex-col max-w-[430px] h-auto px-2 lg:px-0 gap-y-3'>
     <h3 className='text-4xl tracking-wide'>Asgaard sofa</h3>
     <p className='text-xl text-gray-400'>Rs. 250,000.00</p>
     <div className='flex gap-x-5'>
@@ -92,7 +92,7 @@ const Page = () => {
 
         {/* product information section  */}
 
-        <div className='border-y-[1.5px] border-gray-300 lg:p-20 my-16'>
+        <div className='border-y-[1.5px] border-gray-300 lg:p-20 px-2 lg:px-0 my-16'>
             <div className='flex justify-center items-center gap-x-20'>
                 
                 <h3 className='text-4xl mt-10 lg:mt-0'>Description</h3>
@@ -107,7 +107,7 @@ const Page = () => {
                     <p className=' text-gray-400 tracking-wide text-center lg:text-start'>Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
               
             </div>
-            <div className='flex flex-col lg:flex-row gap-y-10 lg:gap-y-0 justify-between'>
+            <div className='flex flex-col lg:flex-row gap-y-10 lg:gap-y-0 justify-between px-2'>
                 <div className='bg-paleSkin py-10 rounded-2xl'>
                 
                 <Image src={"/cloud-sofa-1.png"} alt='cloud-sofa' width={530} height={530} />

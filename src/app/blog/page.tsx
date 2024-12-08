@@ -1,9 +1,9 @@
 import { ChevronRight, Search } from 'lucide-react'
 import React from 'react'
-import Navbar from '../comonents/navbar'
+import Navbar from '../components/navbar'
 import Image from 'next/image'
-import BlogCard2 from '../comonents/BlogCard2'
-import Tag from '../comonents/infoTag'
+import BlogCard2 from '../components/BlogCard2'
+import Tag from '../components/infoTag'
 const page = () => {
   return (
    
@@ -20,7 +20,7 @@ const page = () => {
 
       {/* blog section begins here */}
 
-      <div className='flex flex-col-reverse gap-y-20 lg-gap-y-0 lg:flex-row justify-center gap-x-24 lg:pt-20 pt-4 '>
+      <div className='flex flex-col-reverse gap-y-20 lg-gap-y-0 lg:flex-row justify-center px-2 lx:px-0 gap-x-24 lg:pt-20 pt-4 '>
 
         <div className='flex flex-col gap-y-20'>
 
@@ -120,7 +120,7 @@ Fuga dolor quasi corrupti consequatur doloremque, blanditiis error voluptatum di
         </div>
 
       </div>
-<div className='flex justify-center'>
+<div className='flex justify-center px-2 lg:px-0'>
       <div className='flex gap-x-8 my-8'>
   <span className='px-6 py-4 rounded-lg text-xl bg-light_skin cursor-pointer'>1</span>
   <span className='px-6 py-4 rounded-lg text-xl bg-paleSkin cursor-pointer'>2</span>

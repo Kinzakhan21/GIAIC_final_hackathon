@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../comonents/navbar'
+import Navbar from '../components/navbar'
 import Image from 'next/image'
 import { ChevronRight, Clock, MapPin, Phone } from 'lucide-react'
-import Tag from '../comonents/infoTag'
+import Tag from '../components/infoTag'
  const Page = () => {
   return (
    <div className='mx-auto'>

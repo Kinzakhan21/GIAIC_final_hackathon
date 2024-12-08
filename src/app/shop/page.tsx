@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../comonents/navbar'
+import Navbar from '../components/navbar'
 import Image from 'next/image'
 import { ChevronRight, GalleryVertical, LayoutGrid, SlidersHorizontal } from 'lucide-react'
-import Card from '../comonents/card'
-import Tag from '../comonents/infoTag'
+import Card from '../components/card'
+import Tag from '../components/infoTag'
  const Page = () => {
   return (
     <div className='mx-auto'>
