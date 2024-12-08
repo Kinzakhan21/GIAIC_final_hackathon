@@ -23,8 +23,8 @@ import Tag from '../comonents/infoTag'
       {/* filter section  */}
       
       <div className='bg-palePink py-4 lg:px-20 px-4 flex justify-between'>
-     <div className='flex gap-x-7'>
-      <div className='flex gap-x-2 justify-center items-center'>
+     <div className='flex lg:gap-x-7 gap-x-4'>
+      <div className='flex gap-x-4 justify-center items-center'>
      <SlidersHorizontal />
      <span className='text-2xl font-semibold font-sans'>Filter</span>
      </div>
