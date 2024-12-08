@@ -3,9 +3,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='pt-20 pb-10 lg:px-24 px-10'>
+    <footer className='pt-20 pb-10 lg:px-24 px-4'>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-x-16 gap-y-20 lg:gap-y-0'>
-        <div className='flex justify-center items-center'><p className='text-gray-400 text-xl flex flex-wrap'>400 University Drive Suite 200 Coral <br /> Gables,
+        <div className='lg:flex lg:justify-center lg:items-center'>
+        <p className='text-gray-400 text-xl flex flex-wrap'>400 University Drive Suite 200 Coral <br /> Gables,
         <br />FL 33134 USA</p></div>
         <div className='flex flex-col lg:gap-y-10 gap-y-6'>
             <div className='text-gray-400 font-semibold text-xl'>Links</div>
