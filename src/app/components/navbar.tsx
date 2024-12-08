@@ -37,16 +37,16 @@ const Navbar = ({bgColor="bg-white"}) => {
       <SheetTitle className='text-4xl mb-10'>Shopping Cart</SheetTitle>
       <SheetDescription className="border-t-2 border-gray-300 my-20" >
         <span>
-     <span className='flex gap-x-8 justify-center items-center mt-10'>
+     <span className='flex gap-x-4 lg:gap-x-8 justify-center items-center mt-10'>
       
       <Image src={"/Asgaard-sofa.png"} alt='asgaard-sofa' width={100} height={100} className='bg-light_skin  rounded-lg'/>
       <span >
   
-        <span className='text-xl text-black'>Asgaard sofa</span>
+        <span className='lg:text-xl text-lg text-black'>Asgaard sofa</span>
         <span className='flex gap-x-3'>
           <span >1</span>
           <span >X</span>
-          <span className='text-yellow-400 '>Rs. 250,000.00</span>
+          <span className='text-yellow-400'>Rs. 250,000.00</span>
         </span>
       </span>
       
