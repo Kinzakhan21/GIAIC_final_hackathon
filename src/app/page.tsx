@@ -70,7 +70,7 @@ const Page = () => {
         <div className='flex flex-col gap-y-4 justify-center items-center'>
           <p className='capitalize text-3xl font-custom'>New arrivals</p>
         <h2 className='text-5xl font-extrabold mb-6'>Asgaard sofa</h2>
-        <Link href={"./asgardSofa"} className='text-xl border border-black py-4 px-16 mb-16 lg:mb-0' > Order Now</Link>
+        <Link href={"./asgaardSofa"} className='text-xl border border-black py-4 px-16 mb-16 lg:mb-0' > Order Now</Link>
       </div>
       </div>
     </div>
