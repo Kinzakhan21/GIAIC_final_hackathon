@@ -24,14 +24,14 @@ import Tag from '../comonents/infoTag'
       
       <div className='bg-palePink py-4 lg:px-20 px-4 flex justify-between'>
      <div className='flex gap-x-7'>
-      <div className='flex gap-x-4 justify-center items-center'>
+      <div className='flex gap-x-2 justify-center items-center'>
      <SlidersHorizontal />
      <span className='text-2xl font-semibold font-sans'>Filter</span>
      </div>
      <div className='flex justify-center items-center'><LayoutGrid /></div>
      <div className='flex justify-center items-center'><GalleryVertical /></div>
      <div className="border-r-2 h-10 border-gray-500" />
-     <div className='flex justify-center items-center'><p className='text-lg'>Showing 1–16 of 32 results</p></div>
+     <div className='flex justify-center items-center'><p className='lg:text-lg text-sm'>Showing 1–16 of 32 results</p></div>
      </div>
 
      <div className='lg:flex hidden gap-x-8'>
