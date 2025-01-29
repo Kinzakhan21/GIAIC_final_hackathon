@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export default {
     name: 'product',
     type: 'document',
@@ -7,6 +9,14 @@ export default {
         name: 'name',
         type: 'string',
         title: 'Name',
+      },
+      {
+        name:"slug",
+        type:"slug",
+        title:"Slug",
+        options:{
+          source:"name",
+        }
       },
       {
         name: 'image',
